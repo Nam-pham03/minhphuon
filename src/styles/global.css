@@ -1,0 +1,41 @@
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.employee-list, .employee-form, .login-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.employee-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.employee-list li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+input, select {
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+@media (max-width: 600px) {
+  .employee-list, .employee-form, .login-page {
+    padding: 10px;
+  }
+}

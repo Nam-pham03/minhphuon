@@ -1,0 +1,19 @@
+.pagination {
+  margin-top: 10px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  background: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.pagination button:hover:not(:disabled) {
+  background: #bbb;
+}
+
+.pagination button:disabled {
+  background: #f0f0f0;
+  cursor: not-allowed;
+}

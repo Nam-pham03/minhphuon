@@ -1,0 +1,14 @@
+.employee-list {
+  background: #f9f9f9;
+}
+
+.employee-list button {
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.employee-list button:hover {
+  background: #cc0000;
+}

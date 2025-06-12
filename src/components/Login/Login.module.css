@@ -1,0 +1,14 @@
+.login {
+  background: #f0f0f0;
+}
+
+.login button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.login button:hover {
+  background: #45a049;
+}
